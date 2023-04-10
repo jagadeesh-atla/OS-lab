@@ -1,0 +1,636 @@
+    1  ls
+    2  pwd
+    3  cd
+    4  cd ..
+    5  ls
+    6  cd lab1
+    7  cd 21je0192
+    8  ls
+    9  pwd
+   10  ls
+   11  cd
+   12  cd ..
+   13  echo hi
+   14  ls
+   15  cls
+   16  clear
+   17  cd 21je0196
+   18  cd 21je0091
+   19  cd 21je0192
+   20  exit
+   21  ls -a
+   22  cls
+   23  clear
+   24  ls -a
+   25  cd ..
+   26  ls
+   27  cd 21je0192
+   28  cd
+   29  ls
+   30  ls -a
+   31  ls
+   32  vi
+   33  clear
+   34  date
+   35  date %m
+   36  date+%m
+   37  date%m
+   38  %m
+   39  date %m
+   40  date "+%m"
+   41  date "+%d"
+   42  date "+%h"
+   43  date "+%y"
+   44  date "+%H"
+   45  date "+%H :%M  "
+   46  date "%H"
+   47  date "+%H:%M:%S"
+   48  date+%d
+   49  date +%d
+   50  date "+%d, %h %y %H:%M"
+   51  ls
+   52  ls -a
+   53  cal
+   54  cal 10 2003
+   55  echo "Hi'
+   56  hi
+   57  :q
+   58  echo
+   59  echo 'Hi
+   60  hi
+   61  ls
+   62  clear
+   63  ls
+   64  cd ..
+   65  ls
+   66  cd 21je0192
+   67  ls -a
+   68  la -l
+   69  ls -l
+   70  ls -a
+   71  ls -h
+   72  cd .. | ls -h
+   73  cd .. & ls -h
+   74  cd ..
+   75  ls -h
+   76  ls
+   77  cd
+   78  ls
+   79  touch file.txt
+   80  vi file.txt
+   81  lp file.txt 
+   82  cat file.txt 
+   83  man ls
+   84  who
+   85  whoami
+   86  uptime
+   87  uname
+   88  uname -a
+   89  hostname
+   90  bc
+   91  ls
+   92  who > file.txt 
+   93  cat file.txt 
+   94  ls
+   95  cat file.txt 
+   96  grep 192 file.txt 
+   97  rm file.txt 
+   98  ls
+   99  cat >file1
+  100  cat >file2
+  101  cat file1 file2 >file3
+  102  ls
+  103  cat file3
+  104  cat file1file2 >file3
+  105  cat file1 file2 >file3
+  106  ls
+  107  cat file3
+  108  cat file1
+  109  cat >file1
+  110  cat file1 file2 >file3
+  111  cat file3
+  112  ls
+  113  rm -r
+  114  rm file1 file2 file3
+  115  ls
+  116  who > who.txt
+  117  cut -c1-10emp > echo
+  118  ls
+  119  cat echo
+  120  vi echo
+  121  rm echo 
+  122  head who.txt 
+  123  tail who.txt 
+  124  wc who.txt 
+  125  g++
+  126  gcc --version
+  127  ls
+  128  python
+  129  vi hello.cpp
+  130  g++ hello.cpp 
+  131  ls
+  132  a.out
+  133  ./a.out 
+  134  ls
+  135  vi kadane.cpp
+  136  g++ kadane.cpp 
+  137  ls
+  138  g++ kadane.cpp -o sum
+  139  ls
+  140  ./sum
+  141  ./a.out 
+  142  ls
+  143  g++ hello.cpp 
+  144  ls
+  145  g++ hello.cpp -o hello
+  146  ls
+  147  ./hello
+  148  node
+  149  ls
+  150  gcc -v
+  151  g++
+  152  node js
+  153  history
+  154  history >23012023.txt
+  155  history
+  156  ++
+  157  +
+  158  history
+  159  clear
+  160  history
+  161  ls
+  162  ipython
+  163  python
+  164  node
+  165  npm
+  166  ls -f
+  167  ls -a
+  168  cat who.txt
+  169  head who.txt 
+  170  wc < head who.txt 
+  171  cls
+  172  emacs
+  173  vim file-vim.txt
+  174  cat file-vim.txt 
+  175  vim file-vim.txt 
+  176  clear
+  177  vim syscall.cpp
+  178  vim syscall.c
+  179  gcc syscall.c -o syscall
+  180  ./syscall 
+  181  ls -a
+  182  mkdir systest
+  183  vim file-vim.txt 
+  184  vim sysscall.cpp
+  185  vim sysscall.c
+  186  vim syscall.c
+  187  cd systest/
+  188  touch hi.txt
+  189  touch file.txt
+  190  touch test.txt
+  191  touch program.c
+  192  gcc program.c 
+  193  ls
+  194  vim program.c 
+  195  cd ..
+  196  ls
+  197  ./syscall
+  198  vim syscall.c
+  199  vim syscall2.c
+  200  gcc syscall2.c -o syscall2
+  201  vim syscall2.c
+  202  gcc syscall2.c -o syscall2
+  203  ./syscall2
+  204  history
+  205  ls
+  206  ./syscall
+  207  ./syscall2
+  208  history > 20230130.txt
+  209  exit
+  210  logout
+  211  ls
+  212  ls -a
+  213  mkdir labs
+  214  mv syscall.c ./labs
+  215  cd labs/
+  216  ls
+  217  cd ..
+  218  mv syscall2.c ./labs
+  219  mkdir tests
+  220  mv hello.cpp ./tests/
+  221  mv kadane.cpp ./tests/
+  222  mv who.txt ./labs/
+  223  ls -s
+  224  mv -r systest/ ./tests/
+  225  mkdir logs-labs
+  226  mv 20230130.txt 23012023.txt ./logs-labs/
+  227  ls -s
+  228  vi syscall.cpp 
+  229  rm syscall.cpp
+  230  ls
+  231  mv file-vim.txt labs/
+  232  ls
+  233  rm a.out hello sum syscall syscall2 
+  234  ls
+  235  cd labs
+  236  ls
+  237  vi even-odd.sh
+  238  cd ..
+  239  ls- a
+  240  ls -a
+  241  vi .vimrc
+  242  cd labs/
+  243  vi even-odd.sh 
+  244  ./even-odd.sh
+  245  chmod u+x even-odd.sh 
+  246  ./even-odd.sh 
+  247  vi even-odd.sh 
+  248  ./even-odd.sh 
+  249  vi even-odd.sh 
+  250  ./even-odd.sh 
+  251  chmod u+x even-odd.sh 
+  252  ./even-odd.sh 
+  253  vi even-odd.sh 
+  254  chmod u+x even-odd.sh 
+  255  ./even-odd.sh 
+  256  vi even-odd.sh 
+  257  chmod u+x even-odd.sh 
+  258  ./even-odd.sh 
+  259  vi even-odd.sh 
+  260  chmod u+x even-odd.sh 
+  261  ./even-odd.sh 
+  262  vi even-odd.sh 
+  263  ./even-odd.sh 
+  264  vi even-odd.sh 
+  265  ./even-odd.sh 
+  266  vi even-odd.sh 
+  267  ./even-odd.sh 
+  268  vi even-odd.sh 
+  269  ./even-odd.sh 
+  270  vi even-odd.sh 
+  271  ls
+  272  vi leap.sh
+  273  ./leap.sh
+  274  leap.sh
+  275  chmod u+x leap.sh 
+  276  ./leap.sh
+  277  leap.sh
+  278  vi leap.sh
+  279  ./leap.sh
+  280  vi factorial.sh
+  281  chmod u+x factorial.sh 
+  282  ./factorial.sh 
+  283  vi factorial.sh
+  284  ./factorial.sh 
+  285  vi factorial.sh
+  286  ./factorial.sh 
+  287  vi factorial.sh
+  288  ./factorial.sh 
+  289  vi factorial.sh
+  290  vi swap.sh
+  291  chmod u+x swap.sh 
+  292  ./swap.sh 
+  293  ls -a
+  294  mkdir exp2
+  295  mv syscall.c syscall2.c ./exp2
+  296  ls
+  297  mkdir exp1
+  298  mv file-vim.txt who.txt ./exp1/
+  299  ls
+  300  mkdir exp4
+  301  mv even-odd.sh factorial.sh leap.sh swap.sh ./exp4
+  302  ls
+  303  mkdir exp3
+  304  cd exp3
+  305  ls
+  306  vi cp.sh
+  307  rm cp.sh
+  308  ls
+  309  vi cp.c 
+  310  gcc cp.c -o spaces
+  311  ls
+  312  ./spaces cp.c
+  313  vi cp.c 
+  314  gcc cp.c -o spaces
+  315  ./spaces cp.c
+  316  vi ls.c
+  317  gcc ls.c -o list
+  318  ./list ~
+  319  vi ls.c
+  320  gcc ls.c -o list
+  321  ./list ~
+  322  ./list ~/labs
+  323  vi grep.c
+  324  gcc grep.c -o search
+  325  vi grep.c
+  326  gcc grep.c -o search
+  327  vi grep.c
+  328  gcc grep.c -o search
+  329  ./search grep.c int 
+  330  history >20230206.txt
+  331  logout
+  332  ls
+  333  cd labs
+  334  ls
+  335  cd exp1
+  336  ls
+  337  cd ..
+  338  mkdir exp5 & cd exp5
+  339  ls
+  340  cd exp5
+  341  vi priority.c
+  342  gcc priority.c 
+  343  vi priority.c
+  344  gcc priority.c 
+  345  gcc -version
+  346  gcc -v
+  347  vi priority.c
+  348  gcc priority.c 
+  349  vi priority.c 
+  350  gcc priority.c 
+  351  ls
+  352  ./a.out 
+  353  vi priority.c 
+  354  gcc priority.c 
+  355  ./a.out 
+  356  vi rrsch.c
+  357  cd ~
+  358  ls -a
+  359  vi .vimrc
+  360  vi rrsch.c
+  361  rm rrsch.c
+  362  ls
+  363  cd labs/
+  364  cd exp5
+  365  vi rrsch.c 
+  366  cat > 1.c
+  367  vi 1.c
+  368  gcc 1.c
+  369  vi 1.c
+  370  gcc 1.c
+  371  vi 1.c
+  372  gcc 1.c
+  373  ./a.out
+  374  cp 1.c rrsch.c 
+  375  vi rrsch.c 
+  376  ls -a
+  377  rm 1.c 
+  378  cat > 1.c
+  379  vi 1.c
+  380  gcc 1.c 
+  381  ./a.out 
+  382  ls -a
+  383  mv 1.c fcfs.c
+  384  ls -a
+  385  cat > sjf.c
+  386  vi sjf.c 
+  387  gcc sjf.c 
+  388  ./a.out 
+  389  ls -a
+  390  rm a.out 
+  391  ls
+  392  cd
+  393  ls
+  394  cd logs-labs/
+  395  ls
+  396  history > 20230213.txt
+  397  mv 23012023.txt 20230123.txt
+  398  cd
+  399  cd l
+  400  cd labs/exp5
+  401  ls
+  402  exit
+  403  git --version
+  404  ls
+  405  mkdir 21JE0192-labs
+  406  mv labs 21JE0192-labs/
+  407  ls
+  408  mv logs-labs/ 21JE0192-labs/
+  409  mv systest/ 21JE0192-labs/
+  410  mv tests/ 21JE0192-labs/
+  411  ls
+  412  cd 21JE0192-labs/
+  413  git init
+  414  ls
+  415  git add .
+  416  ls
+  417  git commit -m "As of 20230213"
+  418  git config --global user.email "jagadeeshr.atla@gmail.com"
+  419  git config --global user.name "jagadeesh-atla"
+  420  git remote add origin git@github.com:jagadeesh-atla/OS-lab.git
+  421  git stash
+  422  git add .
+  423  git commit -m "As of 20230213"
+  424  git push -u origin main
+  425  git remote add origin https://github.com/jagadeesh-atla/OS-lab.git
+  426  ls
+  427  ls -a
+  428  rm .git
+  429  rm -rf .git
+  430  ls
+  431  cd labs
+  432  ls -a
+  433  mkdir exp6
+  434  cd exp6
+  435  ls
+  436  vim pcprob-semaphores.c
+  437  cat pcprob-semaphores.c 
+  438  vi pcprob-semaphores.c 
+  439  gcc pcprob-semaphores.c | ./a.out
+  440  gcc pcprob-semaphores.c
+  441  ./a.out 
+  442  vi pcprob-semaphores.c 
+  443  gcc pcprob-semaphores.c
+  444  ./a.out 
+  445  vi pcprob-semaphores.c 
+  446  gcc pcprob-semaphores.c
+  447  vi pcprob-semaphores.c 
+  448  gcc pcprob-semaphores.c
+  449  vi pcprob-semaphores.c 
+  450  cd 21JE0192-labs/
+  451  cd labs
+  452  cd exp6
+  453  ls -a
+  454  rm .pcprob-semaphores.c.swp 
+  455  rm ./a.out 
+  456  ls -a
+  457  vi pcprob-semaphores.c 
+  458  gcc pcprob-semaphores.c 
+  459  ./a.out 
+  460  vi pcprob-semaphores.c 
+  461  gcc pcprob-semaphores.c 
+  462  ./a.out 
+  463  gcc pcprob-semaphores.c 
+  464  ./a.out 
+  465  cd 
+  466  ls -a
+  467  ./21JE0192-labs/labs/exp6/a.out 
+  468  cd ./21JE0192-labs/labs/exp6/a.out 
+  469  cd 21JE0192-labs/labs/exp6
+  470  ls -a
+  471  cat >input.in
+  472  ./a.out <input.in
+  473  cat input.in 
+  474  rm input.in 
+  475  cd .
+  476  cd ..
+  477  ls -a
+  478  mkdir quiz
+  479  cd quiz/
+  480  cd ..
+  481  cd exp
+  482  cd exp2
+  483  ls -a
+  484  cd ../exp3
+  485  ls -a
+  486  cd ../exp4
+  487  ls -a
+  488  vi even-odd.sh 
+  489  cd ../quiz/
+  490  ls
+  491  vi q1-prime.sh
+  492  chmod u+x q1-prime.sh 
+  493  ./q1-prime.sh 
+  494  vi q1-prime.sh
+  495  ./q1-prime.sh 
+  496  vi q1-prime.sh
+  497  ./q1-prime.sh 
+  498  vi q1-prime.sh
+  499  ./q1-prime.sh 
+  500  vi q1-prime.sh
+  501  ./q1-prime.sh 
+  502  vi q1-prime.sh
+  503  cat > q1-prime.sh 
+  504  vi q1-prime.sh
+  505  ./q1-prime.sh 
+  506  vi q1-prime.sh
+  507  ./q1-prime.sh 
+  508  vi q1-prime.sh
+  509  ./q1-prime.sh 
+  510  vi q1-prime.sh
+  511  ./q1-prime.sh 
+  512  vi q1-prime.sh
+  513  ./q1-prime.sh 
+  514  vi q1-prime.sh
+  515  ./q1-prime.sh 
+  516  vi q1-prime.sh
+  517  ./q1-prime.sh 
+  518  vi q1-prime.sh
+  519  ./q1-prime.sh 
+  520  vi q1-prime.sh
+  521  ./q1-prime.sh 
+  522  vi q1-prime.sh
+  523  ./q1-prime.sh 
+  524  vi q1-prime.sh
+  525  ./q1-prime.sh 
+  526  vi q1-prime.sh
+  527  ./q1-prime.sh 
+  528  vi q1-prime.sh
+  529  ./q1-prime.sh 
+  530  vi q1-prime.sh
+  531  ./q1-prime.sh 
+  532  cd ..
+  533  cd
+  534  ls
+  535  cd 21JE0192-labs/
+  536  git init
+  537  git add .
+  538  git commit -m "As of 2023
+  539  0220"
+  540  git remote add origin https://github.com/jagadeesh-atla/OS-lab.git
+  541  git branch -M main
+  542  git push -u origin main
+  543  cd labs/
+  544  cd quiz/
+  545  ./q1-prime.sh 
+  546  cd ~
+  547  cd 21JE0192-labs/
+  548  git push
+  549  exit
+  550  ls
+  551  cd 21JE0192-labs/
+  552  ls
+  553  cd labs/
+  554  ls
+  555  cd quiz/
+  556  ls
+  557  vi q1-prime.sh 
+  558  cd .
+  559  cd ..
+  560  ls
+  561  mkdir exp7 && cd exp7 && vi ipc_shared.c
+  562  ls
+  563  vi ipc_shared.c 
+  564  cat ipc_shared.c 
+  565  gcc ipc_shared.c 
+  566  vi ipc_shared.c 
+  567  gcc ipc_shared.c 
+  568  vi ipc_shared.c 
+  569  gcc ipc_shared.c 
+  570  ./a.out 
+  571  vi ipc_shared.c 
+  572  gcc ipc_shared.c 
+  573  ./a.out 
+  574  ipcs
+  575  ./a.out 
+  576  vi ipc_shared.c 
+  577  ./a.out 
+  578  cd ..
+  579  cd
+  580  ls
+  581  cd 21JE0192-labs/
+  582  l
+  583  ls
+  584  cd labs/quiz/
+  585  ls
+  586  vi q1-prime.sh 
+  587  cat prime.sh
+  588  cat > prime.sh
+  589  prime.sh
+  590  chmd +x prime.sh 
+  591  chmod +x prime.sh 
+  592  prime.sh
+  593  ./prime.sh 
+  594  cls
+  595  ]clear
+  596  clear
+  597  ls
+  598  rm q1-prime.sh 
+  599  vi prime.sh 
+  600  ./prime.sh 
+  601  vi prime.sh 
+  602  ./prime.sh 
+  603  vi prime.sh 
+  604  cat >prime.sh 
+  605  vi prime.sh 
+  606  ./prime.sh 
+  607  d
+  608  cd .
+  609  cd
+  610  ls-a
+  611  ls -a
+  612  cd 21JE0192-labs/
+  613  ls -a
+  614  rm .git
+  615  rm -r .git
+  616  ls -a
+  617  rm -rf .git
+  618  ls -a
+  619  echo "# OS-lab" >> README.md
+  620  git init
+  621  git add .
+  622  git commit -m "first commit"
+  623  git branch -M main
+  624  git remote add origin https://github.com/jagadeesh-atla/OS-lab.git
+  625  git push -u origin main
+  626  git remote add origin https://github.com/jagadeesh-atla/OS-lab.git
+  627  git push -u origin main
+  628  git remote add origin https://github.com/jagadeesh-atla/OS-lab.git
+  629  git push -u origin main
+  630  clear
+  631  cd labs/
+  632  cd ..
+  633  ls
+  634  cd logs-labs/
+  635  ls
+  636  history >> 20230313.txt

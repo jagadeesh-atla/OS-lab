@@ -1,0 +1,396 @@
+    1  ls
+    2  pwd
+    3  cd
+    4  cd ..
+    5  ls
+    6  cd lab1
+    7  cd 21je0192
+    8  ls
+    9  pwd
+   10  ls
+   11  cd
+   12  cd ..
+   13  echo hi
+   14  ls
+   15  cls
+   16  clear
+   17  cd 21je0196
+   18  cd 21je0091
+   19  cd 21je0192
+   20  exit
+   21  ls -a
+   22  cls
+   23  clear
+   24  ls -a
+   25  cd ..
+   26  ls
+   27  cd 21je0192
+   28  cd
+   29  ls
+   30  ls -a
+   31  ls
+   32  vi
+   33  clear
+   34  date
+   35  date %m
+   36  date+%m
+   37  date%m
+   38  %m
+   39  date %m
+   40  date "+%m"
+   41  date "+%d"
+   42  date "+%h"
+   43  date "+%y"
+   44  date "+%H"
+   45  date "+%H :%M  "
+   46  date "%H"
+   47  date "+%H:%M:%S"
+   48  date+%d
+   49  date +%d
+   50  date "+%d, %h %y %H:%M"
+   51  ls
+   52  ls -a
+   53  cal
+   54  cal 10 2003
+   55  echo "Hi'
+   56  hi
+   57  :q
+   58  echo
+   59  echo 'Hi
+   60  hi
+   61  ls
+   62  clear
+   63  ls
+   64  cd ..
+   65  ls
+   66  cd 21je0192
+   67  ls -a
+   68  la -l
+   69  ls -l
+   70  ls -a
+   71  ls -h
+   72  cd .. | ls -h
+   73  cd .. & ls -h
+   74  cd ..
+   75  ls -h
+   76  ls
+   77  cd
+   78  ls
+   79  touch file.txt
+   80  vi file.txt
+   81  lp file.txt 
+   82  cat file.txt 
+   83  man ls
+   84  who
+   85  whoami
+   86  uptime
+   87  uname
+   88  uname -a
+   89  hostname
+   90  bc
+   91  ls
+   92  who > file.txt 
+   93  cat file.txt 
+   94  ls
+   95  cat file.txt 
+   96  grep 192 file.txt 
+   97  rm file.txt 
+   98  ls
+   99  cat >file1
+  100  cat >file2
+  101  cat file1 file2 >file3
+  102  ls
+  103  cat file3
+  104  cat file1file2 >file3
+  105  cat file1 file2 >file3
+  106  ls
+  107  cat file3
+  108  cat file1
+  109  cat >file1
+  110  cat file1 file2 >file3
+  111  cat file3
+  112  ls
+  113  rm -r
+  114  rm file1 file2 file3
+  115  ls
+  116  who > who.txt
+  117  cut -c1-10emp > echo
+  118  ls
+  119  cat echo
+  120  vi echo
+  121  rm echo 
+  122  head who.txt 
+  123  tail who.txt 
+  124  wc who.txt 
+  125  g++
+  126  gcc --version
+  127  ls
+  128  python
+  129  vi hello.cpp
+  130  g++ hello.cpp 
+  131  ls
+  132  a.out
+  133  ./a.out 
+  134  ls
+  135  vi kadane.cpp
+  136  g++ kadane.cpp 
+  137  ls
+  138  g++ kadane.cpp -o sum
+  139  ls
+  140  ./sum
+  141  ./a.out 
+  142  ls
+  143  g++ hello.cpp 
+  144  ls
+  145  g++ hello.cpp -o hello
+  146  ls
+  147  ./hello
+  148  node
+  149  ls
+  150  gcc -v
+  151  g++
+  152  node js
+  153  history
+  154  history >23012023.txt
+  155  history
+  156  ++
+  157  +
+  158  history
+  159  clear
+  160  history
+  161  ls
+  162  ipython
+  163  python
+  164  node
+  165  npm
+  166  ls -f
+  167  ls -a
+  168  cat who.txt
+  169  head who.txt 
+  170  wc < head who.txt 
+  171  cls
+  172  emacs
+  173  vim file-vim.txt
+  174  cat file-vim.txt 
+  175  vim file-vim.txt 
+  176  clear
+  177  vim syscall.cpp
+  178  vim syscall.c
+  179  gcc syscall.c -o syscall
+  180  ./syscall 
+  181  ls -a
+  182  mkdir systest
+  183  vim file-vim.txt 
+  184  vim sysscall.cpp
+  185  vim sysscall.c
+  186  vim syscall.c
+  187  cd systest/
+  188  touch hi.txt
+  189  touch file.txt
+  190  touch test.txt
+  191  touch program.c
+  192  gcc program.c 
+  193  ls
+  194  vim program.c 
+  195  cd ..
+  196  ls
+  197  ./syscall
+  198  vim syscall.c
+  199  vim syscall2.c
+  200  gcc syscall2.c -o syscall2
+  201  vim syscall2.c
+  202  gcc syscall2.c -o syscall2
+  203  ./syscall2
+  204  history
+  205  ls
+  206  ./syscall
+  207  ./syscall2
+  208  history > 20230130.txt
+  209  exit
+  210  logout
+  211  ls
+  212  ls -a
+  213  mkdir labs
+  214  mv syscall.c ./labs
+  215  cd labs/
+  216  ls
+  217  cd ..
+  218  mv syscall2.c ./labs
+  219  mkdir tests
+  220  mv hello.cpp ./tests/
+  221  mv kadane.cpp ./tests/
+  222  mv who.txt ./labs/
+  223  ls -s
+  224  mv -r systest/ ./tests/
+  225  mkdir logs-labs
+  226  mv 20230130.txt 23012023.txt ./logs-labs/
+  227  ls -s
+  228  vi syscall.cpp 
+  229  rm syscall.cpp
+  230  ls
+  231  mv file-vim.txt labs/
+  232  ls
+  233  rm a.out hello sum syscall syscall2 
+  234  ls
+  235  cd labs
+  236  ls
+  237  vi even-odd.sh
+  238  cd ..
+  239  ls- a
+  240  ls -a
+  241  vi .vimrc
+  242  cd labs/
+  243  vi even-odd.sh 
+  244  ./even-odd.sh
+  245  chmod u+x even-odd.sh 
+  246  ./even-odd.sh 
+  247  vi even-odd.sh 
+  248  ./even-odd.sh 
+  249  vi even-odd.sh 
+  250  ./even-odd.sh 
+  251  chmod u+x even-odd.sh 
+  252  ./even-odd.sh 
+  253  vi even-odd.sh 
+  254  chmod u+x even-odd.sh 
+  255  ./even-odd.sh 
+  256  vi even-odd.sh 
+  257  chmod u+x even-odd.sh 
+  258  ./even-odd.sh 
+  259  vi even-odd.sh 
+  260  chmod u+x even-odd.sh 
+  261  ./even-odd.sh 
+  262  vi even-odd.sh 
+  263  ./even-odd.sh 
+  264  vi even-odd.sh 
+  265  ./even-odd.sh 
+  266  vi even-odd.sh 
+  267  ./even-odd.sh 
+  268  vi even-odd.sh 
+  269  ./even-odd.sh 
+  270  vi even-odd.sh 
+  271  ls
+  272  vi leap.sh
+  273  ./leap.sh
+  274  leap.sh
+  275  chmod u+x leap.sh 
+  276  ./leap.sh
+  277  leap.sh
+  278  vi leap.sh
+  279  ./leap.sh
+  280  vi factorial.sh
+  281  chmod u+x factorial.sh 
+  282  ./factorial.sh 
+  283  vi factorial.sh
+  284  ./factorial.sh 
+  285  vi factorial.sh
+  286  ./factorial.sh 
+  287  vi factorial.sh
+  288  ./factorial.sh 
+  289  vi factorial.sh
+  290  vi swap.sh
+  291  chmod u+x swap.sh 
+  292  ./swap.sh 
+  293  ls -a
+  294  mkdir exp2
+  295  mv syscall.c syscall2.c ./exp2
+  296  ls
+  297  mkdir exp1
+  298  mv file-vim.txt who.txt ./exp1/
+  299  ls
+  300  mkdir exp4
+  301  mv even-odd.sh factorial.sh leap.sh swap.sh ./exp4
+  302  ls
+  303  mkdir exp3
+  304  cd exp3
+  305  ls
+  306  vi cp.sh
+  307  rm cp.sh
+  308  ls
+  309  vi cp.c 
+  310  gcc cp.c -o spaces
+  311  ls
+  312  ./spaces cp.c
+  313  vi cp.c 
+  314  gcc cp.c -o spaces
+  315  ./spaces cp.c
+  316  vi ls.c
+  317  gcc ls.c -o list
+  318  ./list ~
+  319  vi ls.c
+  320  gcc ls.c -o list
+  321  ./list ~
+  322  ./list ~/labs
+  323  vi grep.c
+  324  gcc grep.c -o search
+  325  vi grep.c
+  326  gcc grep.c -o search
+  327  vi grep.c
+  328  gcc grep.c -o search
+  329  ./search grep.c int 
+  330  history >20230206.txt
+  331  logout
+  332  ls
+  333  cd labs
+  334  ls
+  335  cd exp1
+  336  ls
+  337  cd ..
+  338  mkdir exp5 & cd exp5
+  339  ls
+  340  cd exp5
+  341  vi priority.c
+  342  gcc priority.c 
+  343  vi priority.c
+  344  gcc priority.c 
+  345  gcc -version
+  346  gcc -v
+  347  vi priority.c
+  348  gcc priority.c 
+  349  vi priority.c 
+  350  gcc priority.c 
+  351  ls
+  352  ./a.out 
+  353  vi priority.c 
+  354  gcc priority.c 
+  355  ./a.out 
+  356  vi rrsch.c
+  357  cd ~
+  358  ls -a
+  359  vi .vimrc
+  360  vi rrsch.c
+  361  rm rrsch.c
+  362  ls
+  363  cd labs/
+  364  cd exp5
+  365  vi rrsch.c 
+  366  cat > 1.c
+  367  vi 1.c
+  368  gcc 1.c
+  369  vi 1.c
+  370  gcc 1.c
+  371  vi 1.c
+  372  gcc 1.c
+  373  ./a.out
+  374  cp 1.c rrsch.c 
+  375  vi rrsch.c 
+  376  ls -a
+  377  rm 1.c 
+  378  cat > 1.c
+  379  vi 1.c
+  380  gcc 1.c 
+  381  ./a.out 
+  382  ls -a
+  383  mv 1.c fcfs.c
+  384  ls -a
+  385  cat > sjf.c
+  386  vi sjf.c 
+  387  gcc sjf.c 
+  388  ./a.out 
+  389  ls -a
+  390  rm a.out 
+  391  ls
+  392  cd
+  393  ls
+  394  cd logs-labs/
+  395  ls
+  396  history > 20230213.txt
