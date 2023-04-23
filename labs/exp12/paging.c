@@ -1,47 +1,41 @@
 #include <stdio.h>
-#include <string.h>
-#include <pthread.h>
-#include <stdlib.h>
-#include <unistd.h>
+#define MAX 50
 
-pthread_t tid[2];
+int main()
+{
+    int page[MAX], i, n, f, ps, off, pno;
+    int choice = 0;
 
-int counter;
-pthread_mutex_t lock;
+    printf("\nEnter the no of  peges in memory: ");
+    scanf("%d", &n);
+    printf("\nEnter page size: ");
+    scanf("%d", &ps);
+    printf("\nEnter no of frames: ");
+    scanf("%d", &f);
+    for (i = 0; i < n; i++)
+        page[i] = -1;
 
-void *doSomething(void *args) {
-	pthread_mutex_lock(&lock);
-	unsigned int i = 0;
-	counter += 1;
-	
-	printf("\nJob %d started\n", counter);
-	
-	for (i = 0; i < 0xFFFFFF; i++);
-	
-	printf("\nJob %d finished\n", counter);
+    printf("\nEnter the page table\n");
+    printf("(Enter frame no as -1 if that page is not present in any frame)\n\n");
+    printf("\npageno\tframeno\n-------\t-------");
 
-	pthread_mutex_unlock(&lock);
-	return NULL;
+    for (i = 0; i < n; i++)
+    {
+        printf("\n\n%d\t\t", i);
+        scanf("%d", &page[i]);
+    }
+
+    do
+    {
+        printf("\n\nEnter the logical address(i.e,page no & offset):");
+        scanf("%d%d", &pno, &off);
+        if (page[pno] == -1)
+            printf("\n\nThe required page is not available in any of frames");
+        else
+            printf("\n\nPhysical address(i.e,frame no & offset):%d,%d", page[pno], off);
+        printf("\nDo you want to continue(1/0)?:");
+        scanf("%d", &choice);
+    } while (choice == 1);
+
+    return 1;
 }
-
-int main(void) {
-	int i = 0;
-	int err;
-	if (pthread_mutex_init(&lock, NULL) != 0) {
-		printf("\nmutex init failed\n");
-		return 1;
-	} 
-	while(i < 2) {
-		err = pthread_create(&(tid[i]), NULL, &doSomething, NULL);
-		if (err != 0)
-			printf("Can't create thread: [%s]", strerror(err));
-		i++;
-	}
-
-	pthread_join(tid[0], NULL);
-	pthread_join(tid[1], NULL);
-	pthread_mutex_destroy(&lock);
-
-	return 0;
-}
-
